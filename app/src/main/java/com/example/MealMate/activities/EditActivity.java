@@ -171,7 +171,8 @@ public class EditActivity extends AppCompatActivity {
 
     private void shareItemDetails() {
         String googleMapsLink = "https://www.google.com/maps?q=" + latitude + "," + longitude;
-        String message = String.format("Hey, check out this item:\nName: %s\nDescription: %s\nPrice: %s\nLocation: %s\nCoordinates: %s, %s\nGoogle Maps: %s\nImage: %s", name, description, price, location, latitude, longitude, googleMapsLink, imageUrl);
+        String message = String.format("Hey, check out this item:\nName: %s\nDescription: %s\nPrice: %s\nLocation: %s\nCoordinates: %s, %s\nGoogle Maps: %s\nImage: %s",
+                name, description, price, location, latitude, longitude, googleMapsLink, imageUrl);
 
         Intent shareIntent = new Intent(Intent.ACTION_SEND);
         shareIntent.setType("text/plain");
