@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "467570472458",
+    "firebase_url": "https://kayangmealmate-default-rtdb.firebaseio.com",
+    "project_id": "kayangmealmate",
+    "storage_bucket": "kayangmealmate.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467570472458:android:67adf4a9e1053e9e8691f3",
+        "android_client_info": {
+          "package_name": "com.example.MealMate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467570472458-lj2uq7597e69ihhpp11lan3php6t2mcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASFDQQxQOz43jH7JsN7_j-M1hxMD506vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467570472458-lj2uq7597e69ihhpp11lan3php6t2mcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Item 1: Action to navigate to Home -->
+
+    <item
+        android:id="@+id/Share1"
+        android:title="VIEW ITEM"
+        android:icon="@drawable/ic_pro"
+        app:showAsAction="never"/>
+
+
+</menu>

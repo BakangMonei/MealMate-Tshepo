@@ -1,0 +1,22 @@
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Item 1: Action to navigate to Home -->
+    <item
+        android:id="@+id/action_HOME"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="always" />
+    <!-- Item 2: Action to perform some other action -->
+    <item
+        android:id="@+id/action_ADD"
+        android:icon="@drawable/ic_add"
+        android:title="Add Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_VIEW"
+        android:icon="@drawable/ic_pro"
+        android:title="Profile"
+        app:showAsAction="always" />
+
+</menu>
